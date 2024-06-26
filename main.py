@@ -5,8 +5,14 @@ def main():
     """
     Code Your Program here
     """
-
-    print(f'The greates number is {maxnum}')
+    if (num1 > num2 and num1 > num3):
+        maxnum = num1
+    elif (num2 > num1 and num2 > num3):
+        maxnum = num2
+    else:
+        maxnum = num3
+        
+    print(f'The greatest number is {maxnum}')
     ########################################
     # Do not delete the return statement
     ########################################
